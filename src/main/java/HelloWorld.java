@@ -1,13 +1,13 @@
-public class HelloWorld {
- 
-    private String message;
- 
-    public String getMessage() {
-        return message;
+    public class HelloWorld {
+
+        private String str;
+
+        public String getMessage() {
+            return str;
+        }
+
+        public void setMessage(String message) {
+            this.str = message;
+        }
+
     }
- 
-    public void setMessage(String message) {
-        this.message = message;
-    }
-     
-}
